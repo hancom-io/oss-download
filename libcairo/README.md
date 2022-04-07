@@ -8,36 +8,27 @@ libcairo
 ==================
 libpng 라이브러리 업데이트로 인해 변경된 libpng 구조체에 맞추기 위한 코드 수정
 
->> 변경 파일 목록
-cairo-png.c - 2017.07.07
+* cairo-png.c - 2017.07.07
+```diff
++#include <pngpriv.h>
 
->> 변경 사항
-※추가※
-#include <pngpriv.h> 추가
-
-※변경※
-<원본>
 png_simple_error_callback (png_structp png_save_ptr,
-                   png_const_charp error_msg)
+                           png_const_charp error_msg)
 {
     _cairo_error (CAIRO_STATUS_NO_MEMORY);
-    longjmp (png_save_ptr->jmpbuf, CAIRO_STATUS_NO_MEMORY);
+-    longjmp (png_save_ptr->jmpbuf, CAIRO_STATUS_NO_MEMORY);
++    longjmp (png_save_ptr->jmp_buf_local, CAIRO_STATUS_NO_MEMORY);
 }
 
-<수정>
-png_simple_error_callback (png_structp png_save_ptr,
-                   png_const_charp error_msg)
-{
-    _cairo_error (CAIRO_STATUS_NO_MEMORY);
-longjmp (png_save_ptr->jmp_buf_local, CAIRO_STATUS_NO_MEMORY);
-}
-
-(png_save_ptr->jmpbuf, 에서 png_save_ptr->jmp_buf_local로 변경)
-
+```
 
 라이선스
 ==================
-이 프로젝트는 MPL-1.1 라이선스를 따릅니다. 자세한 고지 내용은 libcairo 1.4.10.0_notice(github 링크연결), libcairo 1.4.10.0_COPYING-MPL-1.1(github링크연결), libcairo 1.4.10.0_COPYING-LGPL-2.1(github 링크연결), libcairo_Modify.txt(github링크연결) 파일을 참고하세요.
+이 프로젝트는 MPL-1.1 라이선스를 따릅니다. 자세한 고지 내용은 아래 파일들을 참고하세요.
+* [libcairo 1.4.10.0_notice](https://github.com/hancom-io/oss-download/blob/main/libcairo/libcairo%201.4.10.0_notice)
+* [libcairo 1.4.10.0_COPYING-MPL-1.1](https://github.com/hancom-io/oss-download/blob/main/libcairo/libcairo%201.4.10.0_COPYING-MPL-1.1)
+* [libcairo 1.4.10.0_COPYING-LGPL-2.1](https://github.com/hancom-io/oss-download/blob/main/libcairo/libcairo%201.4.10.0_COPYING-LGPL-2.1)
+* [libcairo_Modify.txt](https://github.com/hancom-io/oss-download/blob/main/libcairo/libcairo_Modify.txt)
 
 
-첨부파일 :  libcairo 1.4.10.0.zip // ' libcairo 1.4.10.0.zip' 클릭시 Github에 올린  libcairo 1.4.10.0.zip 위치한 GitHub 페이지로 이동
+첨부파일 :  [libcairo 1.4.10.0.zip](https://github.com/hancom-io/oss-download/raw/main/libcairo/libcairo%201.4.10.0.zip)
