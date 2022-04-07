@@ -1,0 +1,26 @@
+Cairo is free software.
+
+Every source file in the implementation of cairo is available to be redistributed and/or modified under the terms of either the GNU Lesser General Public License (LGPL) version 2.1 or the Mozilla Public License (MPL) version 1.1.  Some files are available under more
+liberal terms, but we believe that in all cases, each file may be used under either the LGPL or the MPL.
+
+See the following files in this directory for the precise terms and conditions of either license:
+ COPYING-LGPL-2.1
+ COPYING-MPL-1.1
+
+Hancom Inc. modified [libcairo 1.4.10.0] on [2017].You can find the details of modification through libcairo_Modify.txt file.
+ 
+Please see each file in the implementation for copyright and licensing information, (in the opening comment of each file).
+
+Hancom Inc. chooses the Mozilla Public License Version 1.1 for the package. 
+
+The contents of this file are subject to the Mozilla Public License Version 1.1 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
+Software distributed under the License is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License.
+
+Copyright © 2002 University of Southern California
+Copyright © 2005 Red Hat, Inc.
+The Initial Developer of the Original Code is cairo graphics library. 
+
+The Initial Developer of the Original Code is University of Southern California.
+Contributor(s): Carl D. Worth <cworth@cworth.org>
+
+Hancom Inc. provides the modified source code and modification details of the libcairo 1.4.10.0.
