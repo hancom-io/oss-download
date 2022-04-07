@@ -1,0 +1,61 @@
+The zziplib may be used freely under the restrictions of the GNU Lesser General Public License version 2 or later. Alternatively the Mozilla Public license can be chosen. The sources are under a dual license, as long as the MPL hint is not removed, the modified files will be again under a dual license for the final recipient.
+
+Hancom Inc. chooses the Mozilla Public License Version 1.1 for this zziplib package.
+
+Hancom Inc. modified [zzip 0.13.59] on [2017]. You can find the details of modification through zziplib_Modify.txt file.
+
+Exhibit A
+The contents of this file are subject to the Mozilla Public License Version 1.1 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
+Software distributed under the License is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License.
+
+./bins/unzip-mem.c: *   Copyright (c) 2003 Guido Draheim <guidod@gmx.de>
+./bins/unzzip.c: *      Copyright (c) 2003 Guido Draheim <guidod@gmx.de>
+./bins/unzzipcat-mem.c: *       Copyright (c) 2003 Guido Draheim <guidod@gmx.de>
+./bins/unzzipcat-seeko.c: *     Copyright (c) 2003 Guido Draheim <guidod@gmx.de>
+./bins/unzzipcat.c: *   Copyright (c) 2003 Guido Draheim <guidod@gmx.de>
+./bins/unzzipdir-mem.c: *       Copyright (c) 2003 Guido Draheim <guidod@gmx.de>
+./bins/unzzipdir.c: *   Copyright (c) 2003 Guido Draheim <guidod@gmx.de>
+./bins/zzcat.c: *       Copyright (c) 2000,2001,2002 Guido Draheim <guidod@gmx.de>
+./bins/zzdir.c: *       Copyright (c) 2000,2001,2002 Guido Draheim <guidod@gmx.de>
+./bins/zzip.c: *        Copyright (c) 2003 Guido Draheim <guidod@gmx.de>
+./bins/zziptest.c: *    Copyright (c) 1999,2000,2001,2002,2003 Guido Draheim
+./bins/zzobfuscated.c: *  portions  Copyright (c) 2000,2001,2002 Guido Draheim <guidod@gmx.de>
+./bins/zzxorcat.c: *    Copyright (c) 2000,2001,2002 Guido Draheim <guidod@gmx.de>
+./bins/zzxorcopy.c: *   Copyright (c) 2000,2001,2002 Guido Draheim <guidod@gmx.de>
+./bins/zzxordir.c: *    Copyright (c) 2000,2001,2002 Guido Draheim <guidod@gmx.de>
+./configure.ac:AC_COPYRIGHT([Guido Draheim <guido@gmx.de> for ZZipLib.SF.net])
+./docs/mksite.pl:#       Copyright (c) 2004 Guido U. Draheim <guidod@gmx.de>
+./docs/mksite.sh:#       Copyright (c) 2004 Guido U. Draheim <guidod@gmx.de>
+./m4/ax_check_aligned_access_required.m4:dnl Copyright (C) 2006, 2009 Guido U. Draheim <guidod@gmx.de>
+./SDL/SDL_rwops_zzcat.c: *      Copyright (c) 2001 Guido Draheim <guidod@gmx.de>
+./SDL/SDL_rwops_zzip.c: *      Copyright (c) 2001 Guido Draheim <guidod@gmx.de>
+./SDL/SDL_rwops_zzip.h: *      Copyright (c) 2001 Guido Draheim <guidod@gmx.de>
+./test/zzipself.c: *    Copyright (c) 2000,2001,2002 Guido Draheim <guidod@gmx.de>
+./zzip/conf.h: *      Copyright (c) 2001,2002,2003,2004 Guido Draheim
+./zzip/dir.c: * Copyright (c) 1999,2000,2001,2002,2003 Guido Draheim
+./zzip/err.c: *      Copyright (c) 1999,2000,2001,2002,2003 Guido Draheim
+./zzip/fetch.c: * Copyright (c) 2004,2005,2006 Guido Draheim
+./zzip/file.c: * Copyright (c) 1999,2000,2001,2002,2003 Guido Draheim
+./zzip/file.h: *      Copyright (c) 1999,2000,2001,2002 Guido Draheim
+./zzip/format.h: *      Copyright (c) 2000,2001,2002,2003 Guido Draheim
+./zzip/fseeko.c: * Copyright (c) 2003,2004 Guido Draheim
+./zzip/fseeko.h: * Copyright (c) 2003,2004 Guido Draheim
+./zzip/info.c: * Copyright (c) 2000,2001,2002,2003 Guido Draheim
+./zzip/info.h: * Copyright (c) 2000,2001,2002,2003 Guido Draheim
+./zzip/lib.h: * Copyright (c) 1999,2000,2001,2002,2003 Guido Draheim
+./zzip/memdisk.c: * Copyright (c) 1999,2000,2001,2002,2003 Guido Draheim
+./zzip/mmapped.c: * Copyright (c) 2003,2004,2006 Guido Draheim
+./zzip/mmapped.h: * Copyright (c) 2003,2004 Guido Draheim
+./zzip/plugin.c: * Copyright (c) 2002,2003 Guido Draheim
+./zzip/plugin.h: * Copyright (c) 2002,2003 Guido Draheim
+./zzip/stat.c: * Copyright (c) 1999,2000,2001,2002 Guido Draheim
+./zzip/types.h: *       Copyright (c) 2003,2004 Guido Draheim
+./zzip/write.c: * Copyright (c) 2003 Guido Draheim
+./zzip/zip.c: * Copyright (c) 1999,2000,2001,2002,2003 Guido Draheim
+./zzip/zzip.h: *        Copyright (c) 1999,2000,2001,2002,2003,2004 Guido Draheim
+./zzip/zzip32.h: *      Copyright (c) 2010 Guido Draheim
+./zzip/__dirent.h: * Copyright (c) 2002,2003 Guido Draheim
+./zzip/__mmap.h: * Copyright (c) 2002,2003 Guido Draheim
+./zzipwrap/zzipwrap.c: *        Copyright (c) 2000,2001 Guido Draheim <guidod@gmx.de>
+
+Hancom Inc. provides the modified source code and modification details of the zzip 0.13.59.
