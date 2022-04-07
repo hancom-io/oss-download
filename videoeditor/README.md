@@ -18,7 +18,9 @@ VideoEditor
 
 라이선스
 =============
-이 프로젝트는 GPL-3.0-only 라이선스를 따릅니다. 자세한 고지 내용은 VideoEditor_notice.txt(github 링크연결), VideoEditor_copying.txt(github링크연결) 파일을 참고하세요.
+이 프로젝트는 GPL-3.0-only 라이선스를 따릅니다. 자세한 고지 내용은 아래 파일들을 참고하세요.
+* [VideoEditor_notice.txt](https://github.com/hancom-io/oss-download/blob/main/videoeditor/VideoEditor_notice.txt)
+* [VideoEditor_copying.txt](https://github.com/hancom-io/oss-download/blob/main/videoeditor/VideoEditor_copying.txt)
 
 
-첨부파일 : VideoEditor.zip // Github에 올린 VideoEditor.zip 위치한 GitHub 페이지로 이동
+첨부파일 : [VideoEditor.zip](https://github.com/hancom-io/oss-download/blob/main/videoeditor/VideoEditor.zip)
