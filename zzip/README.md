@@ -317,7 +317,9 @@ void zzip_seekdir32(ZZIP_DIR * dir, long offset);
 
 라이선스
 ==================
-이 프로젝트는 MPL-1.1 라이선스를 따릅니다. 자세한 고지 내용은 zzip_notice.txt(github 링크연결), zziplib_Modify.txt(github링크연결) 파일을 참고하세요.
+이 프로젝트는 MPL-1.1 라이선스를 따릅니다. 자세한 고지 내용은 아래 파일들을 참고하세요.
+* [zzip_notice.txt](https://github.com/hancom-io/oss-download/blob/main/zzip/zzip_notice.txt)
+* [zziplib_Modify.txt](https://github.com/hancom-io/oss-download/blob/main/zzip/zziplib_Modify.txt)
 
 
-첨부파일 : zzip.zip // 'zzip.zip' 클릭시 Github에 올린 zzip.zip 위치한 GitHub 페이지로 이동
+첨부파일 : [zzip.zip](https://github.com/hancom-io/oss-download/blob/main/zzip/zzip.zip)
