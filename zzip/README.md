@@ -1,6 +1,6 @@
 ZZIPlib Library 
 ==================
-한컴오피스 한/워드에서 압축 라이브러리 용도로 ZZIPlib Library(http://sourceforge.net/zzip-index.html) 사용함에 따라 MPL 1.1 License 의 소스 공개 준수의무 이행을 위해 공개한 소스입니다.
+한컴오피스 한/워드에서 압축 라이브러리 용도로 ZZIPlib Library(http://zziplib.sourceforge.net/) 사용함에 따라 MPL 1.1 License 의 소스 공개 준수의무 이행을 위해 공개한 소스입니다.
 
 본 자료는 hancom.com 사이트의 고객지원 > 개발자센터 > 개발자료실(게시물 제목 : '12. [소스] zzip 소스코드 다운로드',  등록일 2017-11-01) )에서 공개했던 자료를 옮겨 등록한 자료입니다. 
 
