@@ -23,4 +23,4 @@ VideoEditor
 * [VideoEditor_copying.txt](https://github.com/hancom-io/oss-download/blob/main/videoeditor/VideoEditor_copying.txt)
 
 
-첨부파일 : [VideoEditor.zip](https://github.com/hancom-io/oss-download/blob/main/videoeditor/VideoEditor.zip)
+첨부파일 : [VideoEditor.zip](https://github.com/hancom-io/oss-download/raw/main/videoeditor/VideoEditor.zip)
