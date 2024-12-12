@@ -15,3 +15,7 @@ VideoEditor
 -------------
 한컴오피스 NEO 및 2018 한쇼 프로그램에서 동영상 편집 기능을 제공하는 VideoEditor(동영상 편집기) Add-in 프로그램의 소스코드를 공개합니다.
 자세한 사항은 [VideoEditor](https://github.com/hancom-io/oss-download/tree/main/videoeditor) 에서 참고부탁드립니다.
+
+AspectJ Weaver
+-------------
+웹한글기안기에서 Spring Aop의 기능을 확장하기 위해 [AspectJ Weaver](https://eclipse.dev/aspectj/)가 간접 의존성으로 사용함에 따라, EPL-2.0 License의 모듈의 소스 공개 준수 의무 이행을 위해 공개한 소스입니다.
