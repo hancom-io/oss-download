@@ -4,6 +4,6 @@
 ## 라이선스
 이 프로젝트는 EPL-2.0 라이선스를 따릅니다. 자세한 고지 내용은 아래 파일들을 참고하세요.
 
-* AspectJ Weaver-1.9.7_Notice.txt
-* AspectJ Weaver-1.9.7_Copying.txt
-  * 첨부파일 : aspectjweaver-1.9.7.zip
+* [AspectJ Weaver-1.9.7_Notice.txt](https://github.com/hancom-io/oss-notice/blob/main/AspectJ%20Weaver/AspectJ%20Weaver-1.9.7_Notice.txt)
+* [AspectJ Weaver-1.9.7_Copying.txt](https://github.com/hancom-io/oss-notice/blob/main/AspectJ%20Weaver/AspectJ%20Weaver-1.9.7_Copying.txt)
+  * 첨부파일 : [aspectjweaver-1.9.7.zip](https://github.com/hancom-io/oss-notice/raw/refs/heads/main/AspectJ%20Weaver/aspectjweaver-1.9.7.zip)
